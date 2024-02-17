@@ -13,7 +13,7 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
-
+'''
 graph = {
     '2': ['3', '4'],
     '3': ['5'],
@@ -38,7 +38,7 @@ def bfs (visited,node,graph):
                 queue.append(neighbour)
 print("BFS order is")
 bfs(visited,'2',graph)
-
+'''
 
 
 
