@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 17/02/2024
+### REGISTER NUMBER : 212221040015
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -36,14 +36,8 @@ def bfs (visited,node,graph):
                 visited.append(neighbour)
                 queue.append(neighbour)
 print("BFS order is")
-bfs(visited,'2',graph) ```
-
-
-
-
-
-
-
+bfs(visited,'2',graph)
+ ```
 
 
 ### Output:
