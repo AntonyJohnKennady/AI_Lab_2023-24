@@ -1,4 +1,4 @@
-![image](https://github.com/AntonyJohnKennady/AI_Lab_2023-24/assets/127506261/572391f5-1e85-41fb-9765-4945ec89074c)# Ex.No: 5   Logic Programming – Factorial of number   
+# Ex.No: 5   Logic Programming – Factorial of number   
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
 ### AIM: 
