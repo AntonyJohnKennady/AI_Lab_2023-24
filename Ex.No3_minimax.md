@@ -39,10 +39,8 @@ print(minimax(0, 0, True, scores,treeDepth))
 
 
 ### Output:
-```
-![image](https://github.com/AntonyJohnKennady/AI_Lab_2023-24/assets/127506261/8e4551bb-5e63-417f-ac79-0af1871e8007)
+![image](https://github.com/AntonyJohnKennady/AI_Lab_2023-24/assets/127506261/a6695477-7ca1-4dc6-b63b-8fd9ad6e7214)
 
-```
 
 
 ### Result:
