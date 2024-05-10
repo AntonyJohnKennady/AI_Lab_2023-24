@@ -1,6 +1,6 @@
 # Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 23.03.2024                                                                           
+### REGISTER NUMBER : 212221040015
 ### AIM: 
 Write a Prolog program to build a medical Diagnosis Expert System.
 ###  Algorithm:
@@ -14,7 +14,38 @@ Write a Prolog program to build a medical Diagnosis Expert System.
         
 
 ### Program:
-
+```
+hypothesis(Patient,german_measles) :-
+	symptom(Patient,fever),
+	symptom(Patient,headache),
+	symptom(Patient,runny_nose),
+	symptom(Patient,rash).
+hypothesis(Patient,flu) :-
+        symptom(Patient,fever),
+       symptom(Patient,headache),
+	symptom(Patient,body_ache),
+	symptom(Patient,conjunctivitis),
+	symptom(Patient,chills),
+	symptom(Patient,sore_throat),
+	symptom(Patient,runny_nose),
+	symptom(Patient,cough).
+hypothesis(Patient,common_cold) :-
+	symptom(Patient,headache),
+	symptom(Patient,sneezing),
+	symptom(Patient,sore_throat).
+hypothesis(Patient,chicken_pox) :-
+	symptom(Patient,fever),
+	symptom(Patient,chills),
+	symptom(Patient,body_ache),
+	symptom(Patient,rash).
+hypothesis(Patient,measles) :-
+	symptom(Patient,cough),
+	symptom(Patient,sneezing),
+	symptom(Patient,runny_nose).
+symptom(raju,headache).
+symptom(raju,sneezing).
+symptom(raju,sore_throat).
+```
 
 
 
@@ -26,6 +57,10 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 
 ### Output:
+![image](https://github.com/Vijayananthperumal22/AI_Lab_2023-24/assets/107705127/d133c752-0591-4510-85d5-64597dc98e23)
+
+![image](https://github.com/Vijayananthperumal22/AI_Lab_2023-24/assets/107705127/b4d01c56-a124-4430-90db-965508360cb7)
+
 
 
 
